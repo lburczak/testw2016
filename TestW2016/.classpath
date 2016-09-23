@@ -6,5 +6,7 @@
 	<classpathentry kind="lib" path="C:/SikuliX/sikulixapi.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files/ForProgress/ForEVO/drivers/AutoItX4Java.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files/ForProgress/ForEVO/drivers/jacob.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/ForProgress/ForEVO/drivers/selenium-java-2.48.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/ForProgress/ForEVO/drivers/selenium-server-standalone-2.48.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
