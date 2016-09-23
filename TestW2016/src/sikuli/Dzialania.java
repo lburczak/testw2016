@@ -14,12 +14,16 @@ public class Dzialania {
 	
 	@BeforeTest
 	public void beforeTest() {
+		
 	kalkulator = App.open("calc.exe");
 	ekran = new Screen();
+	
 	Settings.MoveMouseDelay=0.1f;
 	Settings.OcrTextSearch=true;
-	//Settings.MinSimilarity=0.7;
 	Settings.OcrTextRead=true;
+	
+	//Settings.MinSimilarity=0.7;
+	
 	}
 
 	@AfterTest
