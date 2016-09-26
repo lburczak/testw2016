@@ -8,7 +8,7 @@ import fp.forevo.proxy.*;
  * Class generated automaticaly. Do not edit from text editor. Change it using Test Object Manager.
  * @author Test Object Manager by ForProgress
  * @see www.forprogress.com.pl
- * @since 2016-09-26 16:15:29
+ * @since 2016-09-26 20:21:30
  */
 public class ZakladanieKontaForEvoMap extends MasterScript {
 
@@ -26,6 +26,14 @@ public class ZakladanieKontaForEvoMap extends MasterScript {
 	 * <b>Target:</b> cssSelector= .header_user_info > .login<br/>
 	 */
 	protected Button btnLogin = getButton(tomgr, winHomePage, "btnLogin");
+
+	/**
+	 * <b>Description:</b> Przycisk wylogowania zalogowanego u¿ytkownika<br/><br/>
+	 * <b>Driver:</b> WebDriver<br/>
+	 * <b>Class:</b> Button<br/>
+	 * <b>Target:</b> cssSelector= div.header_user_info > a.logout<br/>
+	 */
+	protected Button btnWyloguj = getButton(tomgr, winHomePage, "btnWyloguj");
 
 	/**
 	 * <b>Description:</b> Strona Logowania
@@ -47,6 +55,30 @@ public class ZakladanieKontaForEvoMap extends MasterScript {
 	 * <b>Target:</b> id=SubmitCreate<br/>
 	 */
 	protected Button btnStworzKonto = getButton(tomgr, winStronaLogowania, "btnStworzKonto");
+
+	/**
+	 * <b>Description:</b> Pole do wpisania adresu e-mail<br/><br/>
+	 * <b>Driver:</b> WebDriver<br/>
+	 * <b>Class:</b> TextBox<br/>
+	 * <b>Target:</b> id=email<br/>
+	 */
+	protected TextBox txtLog_AdresEmail = getTextBox(tomgr, winStronaLogowania, "txtLog_AdresEmail");
+
+	/**
+	 * <b>Description:</b> Pole do wpisania has³a logowania<br/><br/>
+	 * <b>Driver:</b> WebDriver<br/>
+	 * <b>Class:</b> TextBox<br/>
+	 * <b>Target:</b> id=passwd<br/>
+	 */
+	protected TextBox txtLog_Haslo = getTextBox(tomgr, winStronaLogowania, "txtLog_Haslo");
+
+	/**
+	 * <b>Description:</b> Przycisk potwierdzenia logowania<br/><br/>
+	 * <b>Driver:</b> WebDriver<br/>
+	 * <b>Class:</b> Button<br/>
+	 * <b>Target:</b> id=SubmitLogin<br/>
+	 */
+	protected Button btnLog_ZalogujSie = getButton(tomgr, winStronaLogowania, "btnLog_ZalogujSie");
 
 	/**
 	 * <b>Description:</b> Okno z formularzeme do tworzenia konta
