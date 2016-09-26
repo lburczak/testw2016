@@ -18,7 +18,7 @@ import org.testng.annotations.AfterTest;
 public class ZakladanieKonta {
 	public WebDriver browser = null;
 	public String url = "http://127.0.0.1:8080/gardenstore/pl/";
-	public String user = "test226@test.pl";
+	public String user = "test223@test.pl";
 	public String pass = "qwert1234";
 
 	@BeforeTest
@@ -30,7 +30,7 @@ public class ZakladanieKonta {
 	}
 	@AfterTest
 	public void afterTest() {
-		 browser.quit();
+		browser.quit();
 	}
 
 	@Test(priority = 0)
@@ -80,7 +80,7 @@ public class ZakladanieKonta {
 
 		btnSubmit.click();
 
-		// czekamy na pojawienie siê tekstu - konto stworzone domyœlnie
+		// czekamy na pojawienie siê tekstu - twoje konto zosta³o utworzone
 		new WebDriverWait(browser, 5)
 				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='center_column']/p[1]")));
 		
