@@ -84,7 +84,6 @@ public class ZakladanieKonta {
 		new WebDriverWait(browser, 5)
 				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='center_column']/p[1]")));
 		
-	
 	}
 
 	@Test(priority = 2)
