@@ -2,6 +2,8 @@ package selenium;
 
 import selenium.maps.ZakladanieKontaForEvoMap;
 import org.testng.annotations.Test;
+
+import fp.forevo.manager.DataManager;
 import fp.forevo.manager.TafException;
 import fp.forevo.proxy.Browser;
 import org.testng.annotations.BeforeTest;
@@ -60,7 +62,8 @@ public class ZakladanieKontaForEvo extends ZakladanieKontaForEvoMap {
 	}
 	
 	@BeforeTest
-	public void beforeTest() {
+	public void beforeTest() {		
+		
 		runBrowser(Browser.Chrome, url);
 		browser.manage().window().maximize();				
 	}
