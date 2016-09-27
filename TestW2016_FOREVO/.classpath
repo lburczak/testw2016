@@ -10,10 +10,11 @@
 	<classpathentry kind="lib" path="C:/Program Files/ForProgress/ForEVO/drivers/poi-3.10.1-20140818.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files/ForProgress/ForEVO/drivers/robotframework-2.8.5.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files/ForProgress/ForEVO/drivers/robotframework-2.9.2.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/ForProgress/ForEVO/drivers/selenium-java-2.48.2.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/ForProgress/ForEVO/drivers/selenium-server-standalone-2.48.2.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files/ForProgress/ForEVO/drivers/sikulixapi.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files/ForProgress/ForEVO/lib/ForEVO_XML.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/ForEVO_LIB"/>
+	<classpathentry kind="lib" path="C:/Selenium/selenium-server-standalone-2.53.1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/selenium-java-2.53.1/selenium-2.53.1/selenium-java-2.53.1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/selenium-java-2.53.1/selenium-2.53.1/selenium-java-2.53.1-srcs.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

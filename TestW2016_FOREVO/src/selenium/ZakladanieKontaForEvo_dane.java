@@ -47,8 +47,7 @@ public class ZakladanieKontaForEvo_dane extends ZakladanieKontaForEvoMap {
 		pass = data.xlsGetValue("Haslo");
 		pobierzDate();		
 		
-		txtStworzKonto_AdresEmail.setText(user);
-		System.out.println("");
+		txtStworzKonto_AdresEmail.setText(user);		
 		btnStworzKonto.click();
 
 		Assert.assertTrue(winStronaLogowania.assertText("STWÓRZ KONTO"));
@@ -93,7 +92,7 @@ public class ZakladanieKontaForEvo_dane extends ZakladanieKontaForEvoMap {
 		data.xlsImportWorkbook("D:/DyskGoogle/TestWarez-ForEvo/dane_testowe.xls");
 		data.xlsSetCurrentSheet("Konta");
 
-		runBrowser(Browser.Chrome, url);
+		runBrowser(Browser.Firefox, url);
 		browser.manage().window().maximize();
 	}
 

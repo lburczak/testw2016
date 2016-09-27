@@ -62,6 +62,7 @@ public class DzialaniaForEvo_sposob2 extends DzialaniaForEvo_sposob2Map {
 	public void beforeTest() {
 		runApp("calc.exe");
 		winKalkulator2.activate();
+		setTag("Win81New");
 	}
 
 	@AfterTest
